@@ -11,5 +11,20 @@
     data[data$ID==2,]$ID<- 0
     PBC$data<- data
 
-After regenerate PBC data, the code should be good to run. 
+**Figure 1**
+
+`PBC$owin` should be `PBC$window`. So the code should be: 
+
+    par(mfrow = c(1, 2))
+    plot(PBC$window, main = "cases")
+    axis(1)
+    axis(2)
+    title(xlab = "Easting", ylab = "Northing")
+    points(PBC$data[PBC$data$ID == 1, 1:2], cex = 0.8)
+    plot(PBC$window, main = "controls")
+    axis(1)
+    axis(2)
+    title(xlab = "Easting", ylab = "Northing")
+    points(PBC$data[PBC$data$ID == 0, 1:2], cex = 0.8)
+    par(mfrow = c(1, 1))
 
