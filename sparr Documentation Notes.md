@@ -1,6 +1,6 @@
 # sparr R Package Notes
 
-[*sparr* (spatial relative risk) R package](https://cran.r-project.org/web/packages/sparr/index.html) was developed to perform both fixed bandwidth kernel density estimation (KDE) and adaptive bandwidth KDE. The online documentation is [here](https://cran.r-project.org/web/packages/sparr/sparr.pdf). There some changes to the preset dataset primary biliary cirrhosis (PBC) in *sparr*. Here are some code updates for section 4, Code examples: 
+[*sparr* (spatial relative risk) R package](https://cran.r-project.org/web/packages/sparr/index.html) was developed to perform both fixed bandwidth kernel density estimation (KDE) and adaptive bandwidth KDE. The online documentation is [here](https://cran.r-project.org/web/packages/sparr/sparr.pdf). There some changes to the preset dataset *primary biliary cirrhosis* (**PBC**) in *sparr*. Here are some code updates for section 4 (Code examples): 
 
 **To produce Figure 1**
 
