@@ -9,6 +9,7 @@
     ID<- PBC[["marks"]]
     data<- data.frame(cbind(data, ID))
     data[data$ID==2,]$ID<- 0
+    PBC$data<- data
 
 After regenerate PBC data, the code should be OK to run. 
 
