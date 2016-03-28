@@ -25,6 +25,6 @@
     axis(1)
     axis(2)
     title(xlab = "Easting", ylab = "Northing")
-    points(PBC$data[PBC$data$ID == 0, 1:2], cex = 0.8)
+    points(PBC$data[PBC$data$ID == 0, 1:2], pch = 3, cex = 0.8)
     par(mfrow = c(1, 1))
 
